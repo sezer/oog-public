@@ -382,9 +382,13 @@ html {
 	background: #E1C013;
 }
 
-.logo {
+.main-area .logo {
 	max-width: 200px;
+	position: absolute;
+	top: 0;
+	left: 50%;
 }
+
 .logo-ets {
 	max-width: 150px;
 }
