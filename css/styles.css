@@ -382,11 +382,15 @@ html {
 	background: #E1C013;
 }
 
-.main-area .logo {
-	max-width: 200px;
+.main-area .logo-container {
 	position: absolute;
 	top: 0;
 	left: 50%;
+	transform: translateX(-50%)
+}
+
+.logo {
+	max-width: 200px;
 }
 
 .logo-ets {
